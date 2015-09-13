@@ -1,3 +1,7 @@
+#pagelet_megaphone {
+	display: none !important;
+}
+
 #rightCol {
 	display: none !important;
 }
