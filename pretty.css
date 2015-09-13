@@ -175,3 +175,7 @@ form[ajaxify="/ajax/invite/dialog.php"] {
 	margin-left: 10px !important;
 }
 
+div[data-xt][data-xt-vimp] {
+	display: none !important;
+}
+
