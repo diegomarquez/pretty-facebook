@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "Pretty Facebook",
+	"description": "Get rid of all the visual garbage that you don't want to see.",
+	"version": "1.0",
+
+	"content_scripts": [
+	    {
+	        "matches": [ "*://www.facebook.com/*"],
+	        "js": ["pretty.js"],
+	        "run_at": "document_end"
+	    }
+  	],
+
+  	"permissions": [
+	    "tabs", "activeTab", "webNavigation"
+	],
+	
+	"background": {
+	    "scripts": ["background.js"]
+	},
+
+  	"web_accessible_resources": ["pretty.css", "pretty-support.css"]
+}

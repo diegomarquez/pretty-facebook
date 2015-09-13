@@ -1,0 +1,177 @@
+#rightCol {
+	display: none !important;
+}
+
+#contentArea {
+	width: 100% !important;
+}
+
+#mainContainer {
+	border: 0px !important;
+}
+
+#mainContainer #contentArea[role="main"] {
+	width: 100% !important;
+}
+
+#leftCol {
+	display: none !important;
+}
+
+#contentCol {
+	margin: 0 !important;
+	padding-right: 10px !important;
+}
+
+#globalContainer {
+	padding: 0 !important; 
+	margin-left: 0 !important;
+	width: 84.5% !important;
+}
+
+#blueBarNAXAnchor > div[role="banner"] {
+	margin-left: 5px !important;	
+}
+
+.fbTimelineCapsule
+{
+	display: flex !important;
+	flex-direction: row-reverse !important;
+}
+
+.fbTimelineCapsule > div:nth-child(1)
+{
+	flex: 1 !important;	
+}
+
+.fbTimelineCapsule > div:nth-child(2)
+{
+	margin-left: 10px !important;
+	flex: none;
+}
+
+.lastCapsule .fbTimelineUnit {
+	width: 100% !important;
+}
+
+.lastCapsule .fbTimelineUnit .timelineUnitContainer {
+	width: 100% !important;	
+}
+
+.fbTimelineCapsule > div:nth-child(1) .userContentWrapper > div:first-child > div:not([class]) a {
+	width: 100% !important;
+} 
+
+.fbTimelineCapsule > div:nth-child(1) .UFIContainer a:not(.UFICommentCloseButton) {
+	width: 100% !important;
+}
+
+.fbTimelineCapsule > div:nth-child(1) a .uiScaledImageContainer {
+	width: 100% !important;
+	height: initial !important;
+}
+
+.fb_content.clearfix > .clearfix {
+    margin-top: 10px !important;
+}
+
+.lfloat._ohe {
+	margin-left: 10px !important;
+}
+
+.fb_content.clearfix > .clearfix > div:nth-child(2) {
+	margin: 0;
+}
+
+.lfloat._ohe > div:first-child {
+	margin: 0 !important;
+    padding: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+}
+
+#fbSearchResultsBox {
+	width: 100% !important;
+}
+
+.fbSettingsList {
+	width: 99% !important;
+}
+
+.fbSettingsSections {
+	width: 99% !important;
+}
+
+.fb_content.clearfix > .clearfix > div:nth-child(2) > div:first-child {
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+
+#pageFooter {
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+}
+
+#timeline-medley {
+	width: 100% !important;
+	margin-left: 10px !important;
+}
+
+#timeline-medley > div:first-child {
+	width: initial !important;
+	margin-right: 10px !important;
+}
+
+#timeline-medley .uiList[data-pnref="friends"] {
+	display: flex !important;
+	flex-flow: row wrap;
+}
+
+#timeline-medley .uiList[data-pnref="friends"] > li {
+	flex: 1 0 25% !important;
+}
+
+div[id*="pagelet_timeline_medley"] ._2i12{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+div[id*="pagelet_timeline_medley"] ._5dik._58rl {
+	padding: 0px !important;
+	margin: 0px !important;
+	left: 0 !important;
+	right: 0 !important;
+	width: 100% !important;
+}
+
+div[id*="pagelet_timeline_medley"] ._5rr9 {
+	width: 100% !important;
+}
+
+div[id*="pagelet_timeline_medley"] ._58rt._58rr {
+	padding: 0px !important;
+	margin: 0px !important;
+	left: 0 !important;
+	right: 0 !important;
+}
+
+.contact_importer_widget table {
+	width: 95% !important;
+}
+
+.friendBrowserCheckboxFilters {
+	width: 90% !important;
+}
+
+form[ajaxify="/ajax/invite/dialog.php"] {
+	width: 95% !important;	
+}
+
+.fbSettingsListItemEdit {
+	margin-right: 10px !important;
+}
+
+.fbTimelineLogColumn > div:first-child {
+	margin-left: 10px !important;
+}
+
