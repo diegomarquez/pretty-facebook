@@ -2,12 +2,24 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 
 	removeScript('pretty.css');
 	removeScript('pretty-support.css');
-
+	removeScript('pretty-messages.css');
+	removeScript('pretty-notifications.css');
+	
 	injectScript('pretty.css');
 
 	if (request.url.match(/www\.facebook\.com\/support/))
   	{
   		injectScript('pretty-support.css');
+  	}
+
+  	if (request.url.match(/www\.facebook\.com\/messages/))
+  	{
+  		injectScript('pretty-messages.css');
+  	}
+
+  	if (request.url.match(/www\.facebook\.com\/notifications/))
+  	{
+  		injectScript('pretty-notifications.css');
   	}
 
   	sendResponse();

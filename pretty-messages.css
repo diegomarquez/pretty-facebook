@@ -1,0 +1,37 @@
+#pagelet_web_messenger > div > div.clearfix:first-child {
+	border: 0px !important;
+	display: flex !important;
+}
+
+#pagelet_web_messenger > div > div.clearfix:first-child > div:nth-child(1) {
+	flex: 1  !important;
+	margin: 10px  !important;
+	width: auto !important;
+}
+
+#pagelet_web_messenger > div > div.clearfix:first-child > div:nth-child(2) {
+	flex: 1 !important;
+	margin: 10px !important;
+	width: auto !important;
+}
+
+div[data-jsid="searchInputContainer"] {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.uiScrollableArea {
+	width: 100% !important;
+	margin: 0px !important;
+	height: auto !important;
+}
+
+.uiScrollableAreaWrap {
+	padding: 0px !important;
+	width: 100% !important;
+}
+
+.uiScrollableAreaBody {
+	margin: 0px !important;
+	width: 100% !important;	
+}

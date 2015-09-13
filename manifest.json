@@ -14,12 +14,19 @@
   	],
 
   	"permissions": [
-	    "tabs", "activeTab", "webNavigation"
+	    "tabs", 
+	    "activeTab", 
+	    "webNavigation"
 	],
 	
 	"background": {
 	    "scripts": ["background.js"]
 	},
 
-  	"web_accessible_resources": ["pretty.css", "pretty-support.css"]
+  	"web_accessible_resources": [
+  		"pretty.css", 
+  		"pretty-support.css",
+  		"pretty-messages.css",
+  		"pretty-notifications.css"
+  	]
 }
