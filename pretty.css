@@ -2,6 +2,11 @@
 	display: none !important;
 }
 
+#pagelet_composer {
+	min-width: 500px !important;
+	overflow: auto !important;
+}
+
 #rightCol {
 	display: none !important;
 }
@@ -37,6 +42,35 @@
 	margin-left: 5px !important;
 }
 
+#blueBarNAXAnchor ._fmc {
+	display: flex !important;
+}
+
+#blueBarNAXAnchor ._fmc > div {
+	flex: 1 !important;
+	display: flex !important;
+}
+
+#blueBarNAXAnchor ._fmc > div > div {
+	flex: 1 !important;
+	margin-right: auto !important;
+	width: auto !important;
+	min-width: auto !important;
+	position: relative !important;
+}
+
+#blueBarNAXAnchor ._fmc > div > div > ul {
+	width: 600px;
+}
+
+.userContentWrapper {
+	overflow: auto !important;
+}
+
+div[id*="hyperfeed_story_id"] {
+	min-width: 500px !important;
+}
+
 .fbTimelineCapsule {
 	display: flex !important;
 	flex-direction: row-reverse !important;
@@ -56,12 +90,12 @@
 }
 
 .lastCapsule .fbTimelineUnit .timelineUnitContainer {
-	width: 100% !important;	
+	width: 100% !important;
 }
 
 .fbTimelineCapsule > div:nth-child(1) .userContentWrapper > div:first-child > div:not([class]) a {
 	width: 100% !important;
-} 
+}
 
 .fbTimelineCapsule > div:nth-child(1) .UFIContainer a:not(.UFICommentCloseButton) {
 	width: 100% !important;
