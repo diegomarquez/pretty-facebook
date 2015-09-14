@@ -28,28 +28,25 @@
 }
 
 #globalContainer {
-	padding: 0 !important; 
+	padding: 0 !important;
 	margin-left: 0 !important;
-	width: 84.5% !important;
+	width: calc(100% - 205px) !important;
 }
 
 #blueBarNAXAnchor > div[role="banner"] {
-	margin-left: 5px !important;	
+	margin-left: 5px !important;
 }
 
-.fbTimelineCapsule
-{
+.fbTimelineCapsule {
 	display: flex !important;
 	flex-direction: row-reverse !important;
 }
 
-.fbTimelineCapsule > div:nth-child(1)
-{
-	flex: 1 !important;	
+.fbTimelineCapsule > div:nth-child(1) {
+	flex: 1 !important;
 }
 
-.fbTimelineCapsule > div:nth-child(2)
-{
+.fbTimelineCapsule > div:nth-child(2) {
 	margin-left: 10px !important;
 	flex: none;
 }
@@ -168,7 +165,7 @@ div[id*="pagelet_timeline_medley"] ._58rt._58rr {
 }
 
 form[ajaxify="/ajax/invite/dialog.php"] {
-	width: 95% !important;	
+	width: 95% !important;
 }
 
 .fbSettingsListItemEdit {

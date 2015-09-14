@@ -1,4 +1,6 @@
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+	
+	document.getElementsByTagName("html")[0].style.display = '';
 
 	removeScript('pretty.css');
 	removeScript('pretty-support.css');
