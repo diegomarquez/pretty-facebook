@@ -13,6 +13,7 @@
 
 #contentArea {
 	width: 100% !important;
+	min-width: 800px;
 }
 
 #mainContainer {
@@ -44,6 +45,7 @@
 
 #blueBarNAXAnchor ._fmc {
 	display: flex !important;
+	min-width: auto !important;
 }
 
 #blueBarNAXAnchor ._fmc > div {
@@ -69,6 +71,25 @@
 
 div[id*="hyperfeed_story_id"] {
 	min-width: 500px !important;
+}
+
+#fbTimelineHeadline ._70k {
+	display:flex !important;
+	width: auto !important;
+}
+
+#fbTimelineHeadline ._70k > div:first-child {
+	flex: 1 !important;
+	display:flex !important;
+}
+
+#fbTimelineHeadline ._70k > div:first-child > * {
+	flex: 1 !important;
+}
+
+#fbTimelineHeadline ._70k > div:first-child a {
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
 }
 
 .fbTimelineCapsule {
@@ -213,4 +234,18 @@ form[ajaxify="/ajax/invite/dialog.php"] {
 div[data-xt][data-xt-vimp] {
 	display: none !important;
 }
+
+#timeline_composer_container .topBorder {
+	visibility: hidden;
+}
+
+#timeline_composer_container .bottomBorder {
+	visibility: hidden;
+}
+
+#timeline_composer_container .timelineUnitContainer {
+	border: 1px solid #e1e1e1;
+}
+
+
 
