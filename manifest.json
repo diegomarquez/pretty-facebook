@@ -27,6 +27,7 @@
   		"pretty.css", 
   		"pretty-support.css",
   		"pretty-messages.css",
-  		"pretty-notifications.css"
+  		"pretty-notifications.css",
+  		"pretty-find-friends.css"
   	]
 }

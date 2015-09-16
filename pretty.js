@@ -24,6 +24,11 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
   		injectScript('pretty-notifications.css');
   	}
 
+  	if (request.url.match(/www\.facebook\.com\/find-friends\/browser/))
+  	{
+  		injectScript('pretty-find-friends.css');
+  	}
+
   	sendResponse();
 });
 

@@ -1,0 +1,16 @@
+#globalContainer > div.fb_content.clearfix > div.clearfix {
+	display: flex !important;
+	min-width: 800px !important;
+}
+
+#globalContainer > div.fb_content.clearfix > div.clearfix > div:nth-child(1) {
+	flex: 1 !important;
+}
+
+#globalContainer > div.fb_content.clearfix > div.clearfix > div:nth-child(1) > div:first-child {
+	width: 100% !important;
+}
+
+#globalContainer > div.fb_content.clearfix > div.clearfix > div:nth-child(2) {
+	flex: 1 !important;
+} 
