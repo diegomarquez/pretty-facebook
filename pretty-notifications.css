@@ -1,3 +1,7 @@
+#globalContainer > div.fb_content.clearfix {
+	margin-left: 10px !important;
+}
+
 .UIStandardFrame_SidebarAds {
 	display: none !important;
 }
