@@ -6,6 +6,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 	removeScript('pretty-support.css');
 	removeScript('pretty-messages.css');
 	removeScript('pretty-notifications.css');
+	removeScript('pretty-find-friends.css');
 	
 	injectScript('pretty.css');
 
